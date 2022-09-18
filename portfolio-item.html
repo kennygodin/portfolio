@@ -1,0 +1,120 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevKen Portfolio Website</title>
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font awesome -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/devken.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        The title <strong>Gratitude Journal</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        What I am greatful for
+      </p>
+      <img src="img/gratitude-app.jpg" alt="gratitude-app" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        A gratitude journal is a diary of things for which someone is grateful.
+        Keeping a gratitude journal is a popular practice in the field of
+        positive psychology. The app was build with HTML/CSS, Javascript,
+        Node.js using the CRUD operations of MongoDB to create, remove, update
+        and delete items from the database.
+      </p>
+      <p></p>
+      <img src="" alt="" />
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:kenechukwuokoh30@gmail.com" class="footer__link"
+        >hello@ken.dev</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://github.com/kennygodin" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://twitter.com/kennycodin" class="social-list__link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kennycodin/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.instagram.com/kennygodine/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://use.fontawesome.com/455c563cc1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

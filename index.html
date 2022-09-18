@@ -1,0 +1,229 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevKen Portfolio Website</title>
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font awesome -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/devken.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Kenechukwu</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Full Stack Dev</p>
+      <img src="img/dev-ken-01.jpg" alt="ken-image" class="intro__img" />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Frontend web dev</h3>
+          <p>
+            As a frontend developer, I architects and develops websites and
+            applications using web technologies like HTML/CSS and JavaScript,
+            which run on the Open Web Platform or act as compilation input for
+            non-web platform environments (i.e., React Native).
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Backend web dev</h3>
+          <p>
+            As a backend developer, I create code that allows a database,
+            servers and an application to communicate with one another. I use
+            mongoDB, Node.Js
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Ecommerce applications</h3>
+          <p>
+            As an Ecommerce developer, I create online shopping experiences that
+            consumers have come to expect. I build ecommerce websites and
+            applications from scratch, often working with a variety of different
+            technologies and platforms.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer & Web Developer based in Nigeria
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Software Developer with 1 year experience in frontend + backend
+          development seeking to pursue an oppourtunity with a growing
+          organisation that will utilize and enhance my knowledge in software
+          development and provide me with essential growth oppoutunities.
+        </p>
+        <p>
+          Skills : HTML, CSS, Bootstrap, Javascript, React, Node.js, MongoDB,
+          GIT
+        </p>
+      </div>
+      <img
+        src="img/dev-ken-02.jpg"
+        alt="ken-standing-touching-beared"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection on my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- portfolio item 01 -->
+        <a
+          href="https://secret-stream-31504.herokuapp.com/"
+          class="portfolio__item"
+        >
+          <img src="img/gratitude-app.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- portfolio item 02 -->
+        <a
+          href="https://amazonaclone-app.herokuapp.com/"
+          class="portfolio__item"
+        >
+          <img src="img/amazonclone-app.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- portfolio item 03 -->
+        <a
+          href="https://mycurrentweatherforecast-app.herokuapp.com/"
+          class="portfolio__item"
+        >
+          <img src="img/weather-app.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- portfolio item 04 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+        </a> -->
+        <!-- portfolio item 05 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-05.jpg" alt="" class="portfolio__img" />
+        </a> -->
+        <!-- portfolio item 06 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
+        </a> -->
+        <!-- portfolio item 07 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
+        </a> -->
+        <!-- portfolio item 08 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
+        </a> -->
+        <!-- portfolio item 09 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-09.jpg" alt="" class="portfolio__img" />
+        </a> -->
+        <!-- portfolio item 10 -->
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-10.jpg" alt="" class="portfolio__img" />
+        </a> -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:kenechukwuokoh30@gmail.com" class="footer__link"
+        >hello@ken.dev</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://github.com/kennygodin" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://twitter.com/kennycodin" class="social-list__link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kennycodin/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.instagram.com/kennygodine/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://use.fontawesome.com/455c563cc1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
